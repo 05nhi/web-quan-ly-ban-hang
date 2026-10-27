@@ -1,0 +1,33 @@
+
+Gemini
+DoAn/
+├── admin/                  # Các trang dành cho quản trị viên
+│   ├── index.php           # Trang chủ quản trị (Dashboard)
+│   ├── category_list.php   # Liệt kê danh mục (Xem, Xóa, Tìm)
+│   ├── category_add.php    # Thêm danh mục mới
+│   ├── product_list.php    # Liệt kê món ăn (CRUD)
+│   ├── product_add.php     # Đăng tin (thêm món ăn mới)
+│   ├── product_edit.php    # Chỉnh sửa món ăn
+│   └── order_list.php      # Quản lý đơn hàng
+│
+├── assets/                 # Tài nguyên tĩnh
+│   ├── css/                # Chứa file .css (style.css, bootstrap.min.css)
+│   ├── js/                 # Chứa file .javascript (script.js, jquery.min.js)
+│   └── images/             # Các icon, banner cố định của web
+│
+├── config/                 # Cấu hình hệ thống
+│   └── db.php              # File kết nối CSDL MySQL (dùng chung)
+│
+├── includes/               # Các thành phần giao diện lặp lại
+│   ├── header.php          # Thanh menu, logo phía trên
+│   ├── footer.php          # Thông tin bản quyền phía dưới
+│   └── sidebar.php         # Menu bên hông (thường dùng cho Admin)
+│
+├── uploads/                # Nơi lưu ảnh món ăn khi bạn "Đăng tin"
+│
+├── index.php               # Trang chủ phía người dùng (hiển thị món ăn)
+├── login.php               # Trang đăng nhập (Xử lý Session)
+├── register.php            # Trang đăng ký thành viên
+├── product_detail.php      # Xem chi tiết một món ăn
+├── cart.php                # Giỏ hàng (Xử lý Cookies/Session)
+└── logout.php              # Đăng xuất và hủy Session
